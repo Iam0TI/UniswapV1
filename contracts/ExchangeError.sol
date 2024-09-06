@@ -4,10 +4,11 @@ pragma solidity 0.8.27;
 
 contract ExchangeError {
     error InvalidReserve();
-    error InvaildTokenSold();
+    error InvalidTokenSold();
     error InsufficientOutputAmount();
-    error InvaildEthSold();
+    error InvalidEthSold();
     error TransferError();
     error ZeroAddress();
-    error InvaildAmount();
+    error InvalidAmount();
+    error InvalidExchangeAddress();
 }
